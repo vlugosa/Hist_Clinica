@@ -1,0 +1,35 @@
+.formulario {
+    /*
+    .contenedorFecha {
+        @include grid(3, 2rem);
+        
+    }
+    */
+    .contenedorFecha {
+        @include grid(3, 2rem);
+    }
+
+    .contenedorDatos {
+        //@include grid(3, 2rem);
+        display: flex;
+        flex-direction: row;
+        //margin: 1rem;
+        //margin-top: 1rem;
+    }
+    .contenedorDatos2 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    /*
+    input {
+        padding: 0 10rem;
+    }
+    */
+}
+/*
+.contenedorDatos2 {
+    padding: 0 20rem;
+    margin: 20rem;
+}
+*/
